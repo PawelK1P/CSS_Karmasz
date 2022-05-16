@@ -1,0 +1,86 @@
+#zdanie1_akapit1
+{
+	font-family: serif;
+	color:#C71585;
+	text-decoration: overline;
+	font-style: italic;
+	font-variant: small-caps;
+	font-weight: 500;
+	font-size: small;
+	line-height: 2cm;
+	word-spacing: 10px;
+	letter-spacing: 2ex;
+	text-indent: 28mm;
+	text-align: right;
+	}
+
+#zdanie2_akapit1
+{
+	font-family: serif;
+	color:#FFC0CB;
+	font-weight: 600;
+	font-size: medium;
+	line-height: 2cm;
+	word-spacing: 10px;
+	letter-spacing: 2ex;
+	text-indent: 28mm;
+	text-align: right;
+	}
+
+#zdanie3_akapit1
+{
+	font-family: serif;
+	color:#FF1493;
+	font-weight: 700;
+	font-size: xx-large;
+	line-height: 2cm;
+	word-spacing: 10px;
+	letter-spacing: 2ex;
+	text-indent: 28cm;
+	text-align: right;
+	text-transform: uppercase;
+	}
+
+#zdanie1_akapit2
+{
+    font-family: sans-serif;
+	color:#FFD700;
+	text-decoration: line-through;
+	font-style: oblique;
+	font-variant: small-caps;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 20mm;
+	word-spacing: 10pt;
+	letter-spacing: 0,25cm;
+	text-indent: 3cm;
+	text-align: center;
+	text-transform: capitalize;
+	}
+
+#zdanie2_akapit2
+{
+	font-family: sans-serif;
+	color:#FFFF00;
+	font-weight: 600;
+	font-size: 0.25in;
+	line-height: 20mm;
+	word-spacing: 10pt;
+	letter-spacing: 0,25cm;
+	text-indent: 3cm;
+	text-align: center;
+}
+
+#zdanie3_akapit2
+{
+	font-family: sans-serif;
+	color:#BDB76B;
+	font-weight: 800;
+	font-size: 2em;
+	line-height: 20mm;
+	word-spacing: 10pt;
+	letter-spacing: 0,25cm;
+	text-indent: 3cm;
+	text-align: center;
+}
+ /*Paweł Karmasz 24.03.2022*/

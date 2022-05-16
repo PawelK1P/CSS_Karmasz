@@ -1,0 +1,110 @@
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=iso-8859-2">
+</head>
+<body>
+<ol type="1">
+<h1> <li>  Co to sa pseudoklasy? </h1>
+CSS przewiduje kilka scisle okreslonych klas pozwalajacych na formatowanie niektorych
+elementow dokumentu sa to Pseudoklasy.
+<h1> <li> Uwaga dotyczaca dwukropka: </h1>
+Szalenie istotnym elementem w tej konstrukcji jest dwukropek wystepujacy pomiedzy
+selektorem a nazwa klasy. 
+<h1> <li> Tabela opisujaca pseudoklasy. </h1>
+<style> td { border: 1px solid black; } </style>
+<table>
+<tr> 
+<td> A:link, </td> <td> odpowiada za wyglad hiperlacza, jezeli nie zostalo ono jeszcze odwiedzone. </td>
+</tr>
+<tr>
+<td> A:visited, </td> <td> odpowiada za formatowanie hiperlacza juz odwiedzonego </td>
+</tr>
+<tr>
+<td> A:hover </td> <td>  zmiany pewnych elementow po najechaniu na nie urzadzeniem
+wskazujacym (np. mysza), np. odsylacz, nad ktorym zatrzymano kusor
+lub element blokowy DIV.  </td>
+</tr>
+<tr>
+<td>A:active </td> <td> pozwala nadac dowolne formatowanie elementowi po nakierowaniu na
+niego wskaznika myszy i wcisnieciu przycisku, ale przed jego
+zwolnieniem (odsylacz aktywny,klikniety)  </td>
+</tr>
+<tr>
+<td> A:focus,  </td> <td> jezeli chcemy, by wlasnie wyswietlany odsylacz z menu byl
+formatowany innym kolorem. Odsylacz posiadajacy tzw fokuszaznaczony przy poruszaniu sie po dokumencie przy pomocy klawisza
+tabulacji: nacisniecie w tym momencie klawisza ENTER spowoduje taka
+reakcje przegladarki, jakby dany odsylacz zostal klikniety. </td>
+</tr>
+<tr>
+<td> :lang </td> <td> formatowanie wielojezykowych dokumentow. </td>
+</tr>
+<tr> 
+<td> :first-child </td> <td> umozliwia okreslenie formatowania dla pierwszego dziecka wybranego
+elementu. </td>
+</table>
+<h1> <li> Zastosowanie pseudoklasy :active </h1> 
+<ul>
+<li> mozna uzywac jako uzupelnienia definicji odnosnikow
+<li> jako elementu poprawiajacego czytelnosc formularzy
+</ul>
+<h1> <li> Przyklady (trzy) kodow definiowania pseudoklas (wraz z tematem)</h1>
+<textarea cols="70" rows="15">
+Przyklad 1
+Temat: Arkusz wykorzystujacy :link oraz :visited pseudoklasy w polaczeniu z selektorem
+A. Przykladowa definicja sformatuje odnosnik za pomoca koloru czerwonego i po wybraniu
+taki odnosnik bedzie mial kolor zielony.
+A:link
+ {
+ color:red;
+ }
+A:visited
+ {
+ color:green;
+ }
+ </textarea>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <textarea cols="99" rows="20">
+ Przyklad
+Temat: Formatowanie wygladu wszystkich odnosnikow w dokumencie XHTML/HTML.
+A /* Definicja odsylacza podstawowego*/
+ {
+ font-size:12pt;
+ text-decoration:none;
+ }
+A:link
+ {
+ color:navy;
+ }
+A:visited
+ {
+ color:green;
+  }
+A:hover
+ {
+ color:red;
+ text-decoration:underline;
+ }
+ </textarea>
+ <br> 
+ <br> 
+ <br> 
+ <br> 
+ <br>
+ <textarea cols="99" rows="5">
+ Przyklad
+Temat: Zastosowanie :focus
+A:focus
+ {
+ color:braun;
+ }
+ </textarea>
+
+ 
+ 
+
+
+ 

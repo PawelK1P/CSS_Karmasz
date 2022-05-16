@@ -1,0 +1,34 @@
+div#blok1_karmasz 
+{
+background-color:green;
+width:611px;
+}
+div#blok2_karmasz 
+{
+background-color:green;
+width:611px;
+}
+div#blok3_karmasz 
+{
+background-color:green;
+width:611px;
+}
+div#blok1_karmasz:hover 
+{background-color:silver;
+font-size:21mm;
+}
+div#blok2_karmasz:hover 
+{background-color:yellow;
+font-size:21mm;
+}
+div#blok3_karmasz:hover 
+{background-color:teal;
+font-size:21mm;
+}
+
+
+
+/* zmiany pewnych elementów po najechaniu na nie urządzeniem
+wskazującym (np. myszą), np. odsyłacz, nad którym zatrzymano kusor
+lub element blokowy DIV.
+Paweł Karmasz */
