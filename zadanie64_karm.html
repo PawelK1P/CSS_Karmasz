@@ -6,4 +6,52 @@
 </head>
 <body>
 <ol type="1">
-<li> :first-line 
+<h1> <li> :first-line - określa styl pierwszej sformatowanej linii danego bloku </h1>
+<textarea cols="99" rows="12">
+p
+ {
+ color:navy;
+ font-size:12pt;
+ }
+p:first-line
+ {
+ color:red;
+ font-size:20pt;
+ font-weight:bold;
+ }
+ </textarea>
+ <h1> <li> pseudoelementy: :after oraz :before-Oba elementy służą do umieszczania tekstu przed i za
+formatowanym elementem strony. </h1>
+<textarea cols="99" rows="15">
+p:before
+ {
+ content:"TO SĄ ĆWICZENIA";
+ font-size:15pt;
+ font-style:italic;
+ font-weight:bold;
+ }
+p:after
+ {
+ content:"AUTOR Król Lew";
+ font-size:15pt;
+ font-style:italic;
+ font-weight:bold;
+ }
+ </textarea>
+ <h1> <li> Pseudoelement :first-letter pozwala na formatowanie pierwszej litery w bloku
+tekstu.
+Przykładowy arkusz spowoduje powiększenie pierwszej litery do wielkości 100 punktów i
+nadanie jej koloru czerwonego. </h1>
+<textarea cols="99" rows="10">
+p
+ {
+ color:navy;
+ font-size:30pt;
+ }
+p:first-letter
+ {
+ color:red;
+ font-size:100pt;
+ }
+</textarea>
+</ol>
